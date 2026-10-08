@@ -1,0 +1,10 @@
+### Criar uma receita
+POST http://localhost:8081/transactions
+Content-Type: application/json
+
+{
+  "description": "Salário",
+  "amount": 3500.00,
+  "type": "INCOME",
+  "date": "2026-10-07"
+}
